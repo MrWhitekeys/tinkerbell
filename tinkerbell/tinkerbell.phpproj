@@ -28,6 +28,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="index.php" />
+    <Compile Include="scripts\sql-connection.php" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="img\" />
