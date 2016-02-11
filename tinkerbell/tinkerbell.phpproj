@@ -9,6 +9,16 @@
     </RootNamespace>
     <ProjectTypeGuids>{A0786B88-2ADB-4C21-ABE8-AA2D79766269}</ProjectTypeGuids>
     <AssemblyName>tinkerbell</AssemblyName>
+    <SaveServerSettingsInUserFile>false</SaveServerSettingsInUserFile>
+    <Runtime>PHP</Runtime>
+    <RuntimeVersion>5.6</RuntimeVersion>
+    <EnvName>Custom</EnvName>
+    <PHPDevHostName>localhost</PHPDevHostName>
+    <PHPDevAutoPort>true</PHPDevAutoPort>
+    <CustomServerUrl>http://172.26.57.146/tinkerbell</CustomServerUrl>
+    <CustomXdebugPort>9000</CustomXdebugPort>
+    <PublishEvent>BeforeRun</PublishEvent>
+    <PublishBeforeDebugProfile>prs-srv-rhell</PublishBeforeDebugProfile>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <IncludeDebugInformation>true</IncludeDebugInformation>
