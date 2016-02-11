@@ -28,11 +28,16 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="index.php" />
+    <Compile Include="scripts\pxe-create.php" />
     <Compile Include="scripts\sql-connection.php" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="img\" />
     <Folder Include="css\" />
     <Folder Include="scripts\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="css\base.css" />
+    <Content Include="css\headers.css" />
   </ItemGroup>
 </Project>
