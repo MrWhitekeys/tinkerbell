@@ -19,6 +19,8 @@
     <CustomXdebugPort>9000</CustomXdebugPort>
     <PublishEvent>BeforeRun</PublishEvent>
     <PublishBeforeDebugProfile>prs-srv-rhell</PublishBeforeDebugProfile>
+    <SpecificPageValue>index.php</SpecificPageValue>
+    <StartAction>SpecificPage</StartAction>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <IncludeDebugInformation>true</IncludeDebugInformation>
@@ -39,7 +41,7 @@
   <ItemGroup>
     <Content Include="css\base.css" />
     <Content Include="css\headers.css" />
-    <Content Include="img\tinkerbell-favicon.jpg" />
+    <Content Include="favicon.ico" />
     <Content Include="img\tinkerbell-icon.jpg" />
   </ItemGroup>
 </Project>

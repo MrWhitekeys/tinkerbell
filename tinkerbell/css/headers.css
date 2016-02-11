@@ -1,2 +1,38 @@
-﻿body {
+﻿.header {
+    min-width: 1000px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #f5f5f5;
+    border-bottom: 1px solid #e5e5e5;
+}
+.container {
+    width: 980px;
+    margin-right: auto;
+    margin-left: auto;
+}
+a {
+    color: #4078c0;
+    text-decoration: none;
+}
+a {
+    background-color: transparent;
+}
+* {
+    box-sizing: border-box;
+}
+user agent stylesheet
+a:-webkit-any-link {
+    color: -webkit-link;
+    text-decoration: underline;
+    cursor: auto;
+}
+.header-logo {
+    float: left;
+    margin-right: 10px;
+    margin-left: -2px;
+    color: #333;
+    white-space: nowrap;
+}
+.icon{
+    background-image: "/img/tinkerbell-icon.jpg";
 }
