@@ -39,5 +39,7 @@
   <ItemGroup>
     <Content Include="css\base.css" />
     <Content Include="css\headers.css" />
+    <Content Include="img\tinkerbell-favicon.jpg" />
+    <Content Include="img\tinkerbell-icon.jpg" />
   </ItemGroup>
 </Project>
