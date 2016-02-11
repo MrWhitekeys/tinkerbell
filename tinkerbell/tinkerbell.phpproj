@@ -29,4 +29,9 @@
   <ItemGroup>
     <Compile Include="index.php" />
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="img\" />
+    <Folder Include="css\" />
+    <Folder Include="scripts\" />
+  </ItemGroup>
 </Project>
