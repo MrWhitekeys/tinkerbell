@@ -1,4 +1,4 @@
-<?php<?php
+<?php
 echo "connecting to MariaDB...\n";
 $servername = "localhost";
 $username = "php";
