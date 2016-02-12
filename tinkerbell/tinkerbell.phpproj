@@ -29,19 +29,33 @@
     <IncludeDebugInformation>false</IncludeDebugInformation>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="alerts\index.php" />
+    <Compile Include="header-nav.php" />
     <Compile Include="index.php" />
+    <Compile Include="nav.php" />
+    <Compile Include="footer.php" />
+    <Compile Include="header.php" />
+    <Compile Include="os\index.php" />
+    <Compile Include="pxe\index.php" />
     <Compile Include="scripts\pxe-create.php" />
     <Compile Include="scripts\sql-connection.php" />
+    <Compile Include="Server\index.php" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="img\" />
     <Folder Include="css\" />
+    <Folder Include="alerts\" />
+    <Folder Include="pxe\" />
+    <Folder Include="os\" />
+    <Folder Include="Server\" />
     <Folder Include="scripts\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="css\base.css" />
     <Content Include="css\headers.css" />
+    <Content Include="css\footer.css" />
     <Content Include="favicon.ico" />
+    <Content Include="img\gear13.svg" />
     <Content Include="img\tinkerbell-icon.jpg" />
   </ItemGroup>
 </Project>
