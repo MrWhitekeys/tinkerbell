@@ -17,11 +17,6 @@ echo '<div class="header" role="banner">
                 <a class="header-nav-link" href="/help">Help</a>
             </li>
         </ul>
-        <ul class="heade-nav">
-            <li class="header-nav-item">
-                 <a href="/" class="header-nav-title"> Tinkerbell: Operating System Deployment Appliance </a>
-            </li>
-        </ul>
         <ul class="header-nav user-nav right" id="user-links">
             <li class="header-nav-item">
                 <span class="js-socket-channel js-updatable-content" data-channel="notification-changed:MrWhitekeys" data-url="/notifications/header">
@@ -73,6 +68,14 @@ echo '<div class="header" role="banner">
                         </div>
                     </div>
                 </span>
+            </li>
+        </ul>
+        <ul class="heade-nav center">
+            <li class="header-nav-item">
+                 <a href="/" class="header-nav-title">
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Tinkerbell: Operating System Deployment Appliance 
+                 </a>
             </li>
         </ul>
     </div>

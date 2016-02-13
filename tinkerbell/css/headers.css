@@ -55,6 +55,10 @@ a:-webkit-any-link {
 .right {
     float: right;
 }
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
 .header-nav {
     list-style: none;
 }
@@ -82,7 +86,7 @@ li {
     display: block;
     padding: 4px 8px;
     font-weight: bold;
-    font-size: 26px;
+    font-size: 18px;
     color: #333;
 }
 .header-nav-link {

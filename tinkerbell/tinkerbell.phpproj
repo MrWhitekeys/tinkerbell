@@ -39,7 +39,8 @@
     <Compile Include="pxe\index.php" />
     <Compile Include="scripts\pxe-create.php" />
     <Compile Include="scripts\sql-connection.php" />
-    <Compile Include="Server-temp\index.php" />
+    <Compile Include="server\index.php" />
+    <Compile Include="test.php" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="img\" />
@@ -47,7 +48,7 @@
     <Folder Include="alerts\" />
     <Folder Include="pxe\" />
     <Folder Include="os\" />
-    <Folder Include="Server-temp\" />
+    <Folder Include="server\" />
     <Folder Include="scripts\" />
   </ItemGroup>
   <ItemGroup>
