@@ -32,10 +32,14 @@
     <Compile Include="alerts\index.php" />
     <Compile Include="header-nav.php" />
     <Compile Include="index.php" />
+    <Compile Include="license\index.php" />
+    <Compile Include="license\license.php" />
     <Compile Include="nav.php" />
     <Compile Include="footer.php" />
     <Compile Include="header.php" />
     <Compile Include="os\index.php" />
+    <Compile Include="privacy\index.php" />
+    <Compile Include="privacy\privacy.php" />
     <Compile Include="pxe\index.php" />
     <Compile Include="scripts\pxe-create.php" />
     <Compile Include="scripts\sql-connection.php" />
@@ -46,6 +50,8 @@
     <Folder Include="img\" />
     <Folder Include="css\" />
     <Folder Include="alerts\" />
+    <Folder Include="license\" />
+    <Folder Include="privacy\" />
     <Folder Include="pxe\" />
     <Folder Include="os\" />
     <Folder Include="server\" />
@@ -58,5 +64,6 @@
     <Content Include="favicon.ico" />
     <Content Include="img\gear13.svg" />
     <Content Include="img\tinkerbell-icon.jpg" />
+    <Content Include="img\tinkerbell-icon.png" />
   </ItemGroup>
 </Project>

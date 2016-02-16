@@ -29,9 +29,6 @@ a:-webkit-any-link {
     white-space: nowrap;
 }
 .icon{
-    background-image: url('/img/tinkerbell-icon.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
     height: auto;
     width: "28";
 }

@@ -12,17 +12,21 @@ echo'
             <li><a href="">Pricing</a></li>
 
         </ul>
-
-        <a href="/">
-            <img class="icon" height="28" role="img" width="28" src="/img/tinkerbell-icon.jpg" />
-        </a>
-        <ul class="site-footer-links">
-            <li>&copy; 2016 <a href="http://www.presidio.com/">Presidio, Inc.</a></li>
-            <li><a href="/terms">Terms</a></li>
+        <ul class="site-footer-links left">
+            <li>&copy; 2016 <a href="http://www.presidio.com/">Presidio, Inc.</a></li
+            <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
             <li><a href="/privacy">Privacy</a></li>
-            <li><a href="/security">Security</a></li>
+            <li><a href="/license">License</a></li>
             <li><a href="/contact">Contact</a></li>
             <li><a href="/help">Help</a></li>
+        </ul>
+        <ul class="site-footer-links center">
+            <li>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="/">
+                    <img class="icon" height="28" role="img" width="28" src="/img/tinkerbell-icon.png"/>
+                </a>
+            <li>
         </ul>
     </div>
 </div>
