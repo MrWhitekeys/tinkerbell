@@ -171,4 +171,84 @@ svg:not(:root) {
 }
 textarea, button {
     font: 13px / 1.4 Helvetica, arial, nimbussansl, liberationsans, freesans, clean, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}.repohead.experiment-repo-nav {
+    padding-bottom: 0;
+    background-color: #fafafa;
+}
+.pagehead {
+    position: relative;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #eee;
+}
+.repohead .repohead-details-container {
+    margin-bottom: 20px;
+}
+.container {
+    width: 980px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.pagehead ul.pagehead-actions {
+    z-index: 21;
+    float: right;
+    margin: 0;
+}
+.repohead h1 {
+    position: relative;
+    float: left;
+    max-width: 635px;
+    padding-left: 18px;
+    font-size: 18px;
+    line-height: 26px;
+    color: #666;
+}
+.pagehead h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 28px;
+}
+
+.pagehead h1 strong {
+    font-weight: bold;
+}
+
+.pagehead-actions>li {
+    float: left;
+    margin: 0 10px 0 0;
+    font-size: 11px;
+    color: #333;
+    list-style-type: none;
+}
+
+.reponav {
+    position: relative;
+    top: 1px;
+    margin-top: -5px;
+}
+.reponav:before {
+    display: table;
+    content: "";
+}
+.reponav:after {
+    display: table;
+    clear: both;
+    content: "";
+}
+.reponav-item.selected {
+    color: #111;
+    background-color: #fff;
+    border-color: #d26911 #e5e5e5 transparent;
+}
+.reponav-item {
+    float: left;
+    padding: 7px 15px 8px;
+    color: #666;
+    white-space: nowrap;
+    border: solid transparent;
+    border-width: 3px 1px 1px;
+    border-radius: 3px 3px 0 0;
 }
