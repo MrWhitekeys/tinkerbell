@@ -1,5 +1,4 @@
-<?php
-echo '<div class="header" role="banner">
+<div class="header" role="banner">
     <div class="container">
         <a class="header-logo" href="/tinkerbell/" data-hotkey="g d" aria-label="Homepage" data-ga-click="Header, go to dashboard, icon:logo">
             <img class="icon" height="28" role="img" width="28" src="/img/tinkerbell-icon.jpg" />
@@ -80,5 +79,4 @@ echo '<div class="header" role="banner">
         </ul>
     </div>
 
-</div>';
-?>
+</div>

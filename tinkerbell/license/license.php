@@ -1,5 +1,5 @@
 <div role="main" id="main-content" class="col">
-    <h1>Privacy Statement</h1>
+    <h1>License</h1>
     <!-- node.tpl.php -->
     <article class="node node-marquee-image-2-cols " about="/privacy-statement" typeof="sioc:Item foaf:Document" role="article">
         <span property="dc:title" content="Privacy Statement" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span>    <footer class="article-meta"></footer>

@@ -1,5 +1,3 @@
-<?php
-echo '
 <!DOCTYPE html>
 <html lang="en" class=" is-copy-enabled is-u2f-enabled"/>
 <header>
@@ -15,4 +13,3 @@ echo '
     <link rel="stylesheet" type="text/css" href="/css/footer.css" />
 </header>
 <body>';
-?>

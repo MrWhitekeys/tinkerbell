@@ -1,8 +1,7 @@
 <?php
-include '../header.php';
-include '../header-nav.php';
-include '../nav.php';
-include '../menu.php';
+include $_SERVER['DOCUMENT_ROOT'].'/header.php';
+include $_SERVER['DOCUMENT_ROOT'].'/header-nav.php';
+include $_SERVER['DOCUMENT_ROOT'].'/nav.php';
 include 'license.php';
-include '../footer.php';
+include $_SERVER['DOCUMENT_ROOT'].'/footer.php';
 ?>

@@ -30,10 +30,12 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="alerts\index.php" />
+    <Compile Include="deploy\index.php" />
     <Compile Include="header-nav.php" />
     <Compile Include="index.php" />
     <Compile Include="license\index.php" />
     <Compile Include="license\license.php" />
+    <Compile Include="nav-inactive.php" />
     <Compile Include="nav.php" />
     <Compile Include="footer.php" />
     <Compile Include="header.php" />
@@ -42,15 +44,24 @@
     <Compile Include="privacy\privacy.php" />
     <Compile Include="pxe\index.php" />
     <Compile Include="scripts\pxe-create.php" />
+    <Compile Include="scripts\test.php" />
+    <Compile Include="scripts\sql-conn.php" />
     <Compile Include="scripts\sql-connection.php" />
     <Compile Include="server\index.php" />
+    <Compile Include="settings\index.php" />
+    <Compile Include="stats\index.php" />
     <Compile Include="test.php" />
+    <Compile Include="vcenter\index.php" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="img\" />
     <Folder Include="css\" />
     <Folder Include="alerts\" />
     <Folder Include="license\" />
+    <Folder Include="deploy\" />
+    <Folder Include="vcenter\" />
+    <Folder Include="stats\" />
+    <Folder Include="settings\" />
     <Folder Include="privacy\" />
     <Folder Include="pxe\" />
     <Folder Include="os\" />

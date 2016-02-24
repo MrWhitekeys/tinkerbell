@@ -2,11 +2,11 @@
 <Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <DeleteExistingFiles>False</DeleteExistingFiles>
-    <SkipRemoteFilesCheck>True</SkipRemoteFilesCheck>
-    <publishUrl>172.26.57.146</publishUrl>
+    <SkipRemoteFilesCheck>False</SkipRemoteFilesCheck>
+    <publishUrl>prs-srv-rhel01.presidio.local</publishUrl>
     <UserName>root</UserName>
     <_SavePWD>True</_SavePWD>
-    <FtpSitePath>/prs/mgmt/tomcat/webapps/tinkerbell</FtpSitePath>
+    <FtpSitePath>/prs/mgmt/web/apps/tinkerbell/</FtpSitePath>
     <WebPublishMethod>SFTP</WebPublishMethod>
   </PropertyGroup>
 </Project>
