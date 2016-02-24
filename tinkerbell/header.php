@@ -1,4 +1,5 @@
-<!DOCTYPE html>
+<?php 
+echo '<!DOCTYPE html>
 <html lang="en" class=" is-copy-enabled is-u2f-enabled"/>
 <header>
     <meta charset="utf-8" />
@@ -11,5 +12,8 @@
     <link rel="stylesheet" type="text/css" href="/css/base.css" />
     <link rel="stylesheet" type="text/css" href="/css/headers.css" />
     <link rel="stylesheet" type="text/css" href="/css/footer.css" />
+    <link rel="stylesheet" type="text/css" href="/css/body.css" />
 </header>
 <body>';
+
+?>

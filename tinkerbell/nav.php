@@ -5,12 +5,10 @@
             <span itemscope="" itemtype="http://schema.org/ListItem" itemprop="itemListElement">
                 <a href="/" class="js-selected-navigation-item 
                     <?php
-                    $url = $_SERVER['REQUEST_URI'];
-                    if (url == '/') {
+                    if ($_SERVER['REQUEST_URI'] == '/') {
                         echo 'selected';
                     }
-                    ?> reponav-item"
-                    data-hotkey="g p" data-selected-links="repo_pulls /MrWhitekeys/tinkerbell/pulls" itemprop="url">
+                    ?> reponav-item" itemprop="url">
                     <svg aria-hidden="true" class="octicon octicon-issue-opened" height="16" role="img" version="1.1" viewbox="0 0 14 16" width="14">
                         <path d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7S10.14 13.7 7 13.7 1.3 11.14 1.3 8s2.56-5.7 5.7-5.7m0-1.3C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7S10.86 1 7 1z m1 3H6v5h2V4z m0 6H6v2h2V10z"></path>
                     </svg>
@@ -21,8 +19,7 @@
             <span itemscope="" itemtype="http://schema.org/ListItem" itemprop="itemListElement">
                 <a href="/server" aria-selected="true" class="js-selected-navigation-item 
                     <?php
-                    $url = $_SERVER['REQUEST_URI'];
-                    if (strpos($url,'server') !== false) {
+                    if (strpos($_SERVER['REQUEST_URI'],'server') !== false) {
                         echo 'selected';
                     }
                     ?> reponav-item" itemprop="url">
@@ -38,8 +35,7 @@
             <span itemscope="" itemtype="http://schema.org/ListItem" itemprop="itemListElement">
                 <a href="/os" class="js-selected-navigation-item 
                     <?php
-                    $url = $_SERVER['REQUEST_URI'];
-                    if (strpos($url,'os') !== false) {
+                    if (strpos($_SERVER['REQUEST_URI'],'os') !== false) {
                         echo 'selected';
                     }
                     ?>
@@ -48,7 +44,6 @@
                         <path d="M9.5 3l-1.5 1.5 3.5 3.5L8 11.5l1.5 1.5 4.5-5L9.5 3zM4.5 3L0 8l4.5 5 1.5-1.5L2.5 8l3.5-3.5L4.5 3z"></path>
                     </svg>
                     <span itemprop="name">Operating Systems</span>
-                    <span class="counter">0</span>
                     <meta itemprop="position" content="2">
                 </a>
             </span>
@@ -56,8 +51,7 @@
 
             <a href="/vcenter" class="js-selected-navigation-item 
                 <?php
-                $url = $_SERVER['REQUEST_URI'];
-                if (strpos($url,'vcenter') !== false) {
+                if (strpos($_SERVER['REQUEST_URI'],'vcenter') !== false) {
                     echo 'selected';
                 }
                 ?> 
@@ -69,8 +63,7 @@
             </a>
             <a href="/deploy" class="js-selected-navigation-item 
                 <?php
-                $url = $_SERVER['REQUEST_URI'];
-                if (strpos($url,'deploy') !== false) {
+                if (strpos($_SERVER['REQUEST_URI'],'deploy') !== false) {
                     echo 'selected';
                 }
                 ?> 
@@ -82,8 +75,7 @@
             </a>
             <a href="/stats" class="js-selected-navigation-item 
                 <?php
-                $url = $_SERVER['REQUEST_URI'];
-                if (strpos($url,'stats') !== false) {
+                if (strpos($_SERVER['REQUEST_URI'],'stats') !== false) {
                     echo 'selected';
                 }
                 ?>
@@ -93,8 +85,7 @@
             </a>
             <a href="/settings" class="js-selected-navigation-item 
                <?php
-               $url = $_SERVER['REQUEST_URI'];
-                   if (strpos($url,'settings') !== false) {
+                   if (strpos($_SERVER['REQUEST_URI'],'settings') !== false) {
                        echo 'selected';
                    }
                    ?>

@@ -48,10 +48,20 @@
     <Compile Include="scripts\sql-conn.php" />
     <Compile Include="scripts\sql-connection.php" />
     <Compile Include="server\index.php" />
+    <Compile Include="settings\app\index.php" />
+    <Compile Include="settings\app\options.php" />
     <Compile Include="settings\index.php" />
+    <Compile Include="settings\menu.php" />
+    <Compile Include="settings\network\index.php" />
+    <Compile Include="settings\network\options.php" />
+    <Compile Include="settings\options.php" />
+    <Compile Include="settings\sum.php" />
+    <Compile Include="settings\users\index.php" />
+    <Compile Include="settings\users\options.php" />
     <Compile Include="stats\index.php" />
     <Compile Include="test.php" />
     <Compile Include="vcenter\index.php" />
+    <Compile Include="vcenter\sum.php" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="img\" />
@@ -59,6 +69,9 @@
     <Folder Include="alerts\" />
     <Folder Include="license\" />
     <Folder Include="deploy\" />
+    <Folder Include="settings\network\" />
+    <Folder Include="settings\app\" />
+    <Folder Include="settings\users\" />
     <Folder Include="vcenter\" />
     <Folder Include="stats\" />
     <Folder Include="settings\" />
@@ -72,6 +85,7 @@
     <Content Include="css\base.css" />
     <Content Include="css\headers.css" />
     <Content Include="css\footer.css" />
+    <Content Include="css\body.css" />
     <Content Include="favicon.ico" />
     <Content Include="img\gear13.svg" />
     <Content Include="img\tinkerbell-icon.jpg" />
